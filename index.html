@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid04</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="grid">
         <header>header</header>
         <nav>nav</nav>
         <main>
             <form action="" class="formularz">
-                <label for="item1" id="iteml1">Imię:</label>
-                <input type="text" id="itemi1" name="item1">
-                <label for="item2" id="iteml2">Nazwisko:</label>
-                <input type="text" id="itemi2" name="item2">
-                <label for="item3" id="iteml3">Adres:</label>
-                <input type="text" id="itemi3" name="item3">
-                <label for="item4" id="iteml4">Adres2:</label>
-                <input type="text" id="itemi4" name="item4">
-                <label for="item5" id="iteml5">Miasto:</label>
-                <input type="text" id="itemi5" name="item5">
-                <label for="item6" id="iteml6">Ulica:</label>
-                <input type="text" id="itemi6" name="item6">
-                <label for="item7" id="iteml7">Numer domu:</label>
-                <input type="text" id="itemi7" name="item7">
-                <label for="item8" id="iteml8">Wydział:</label>
-                <textarea name="item8" id="itemi8" cols="30" rows="10"></textarea>
+                <div class="labels">
+                    <label for="item1" id="iteml1">Imię:</label>
+                    <label for="item2" id="iteml2">Nazwisko:</label>
+                    <label for="item3" id="iteml3">Adres:</label>
+                    <label for="item4" id="iteml4">Adres2:</label>
+                    <label for="item5" id="iteml5">Miasto:</label>
+                    <label for="item6" id="iteml6">Ulica:</label>
+                    <label for="item7" id="iteml7">Numer domu:</label>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="itemi1" name="item1">
+                    <input type="text" id="itemi2" name="item2">
+                    <input type="text" id="itemi3" name="item3">
+                    <input type="text" id="itemi4" name="item4">
+                    <input type="text" id="itemi5" name="item5">
+                    <input type="text" id="itemi6" name="item6">
+                    <input type="text" id="itemi7" name="item7">
+                </div>
+                <div class="wydzial">
+                    <label for="item8" id="iteml8">Wydział:</label>
+                    <textarea name="item8" id="itemi8" cols="30" rows="10"></textarea>
+                </div>
                 <div id="przyciski">
                     <button>Cofnij</button>
                     <button>Anuluj</button>
@@ -39,6 +47,7 @@
         <aside>aside</aside>
         <article>article</article>
         <footer>footer</footer>
-    </div>    
+    </div>
 </body>
+
 </html>

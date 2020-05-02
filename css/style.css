@@ -74,114 +74,53 @@ footer {
   display: grid;
   -ms-grid-columns: 1fr 2fr 2fr;
       grid-template-columns: 1fr 2fr 2fr;
-  -ms-grid-rows: 36px 36px 36px 36px 36px 36px 36px 36px;
-      grid-template-rows: 36px 36px 36px 36px 36px 36px 36px 36px;
+  -ms-grid-rows: 260px 40px;
+      grid-template-rows: 260px 40px;
   text-align: right;
   font-weight: bold;
   font-size: 20px;
-      grid-template-areas: "iteml1 itemi1 iteml8" "iteml2 itemi2 itemi8" "iteml3 itemi3 itemi8" "iteml4 itemi4 itemi8" "iteml5 itemi5 itemi8" "iteml6 itemi6 itemi8" "iteml7 itemi7 itemi8" "przyciski przyciski przyciski";
+      grid-template-areas: "labels inputs wydzial" "przyciski przyciski przyciski";
 }
 
-#iteml1 {
+.labels {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  grid-area: iteml1;
+  grid-area: labels;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 36px 36px 36px 36px 36px 36px 36px;
+      grid-template-rows: 36px 36px 36px 36px 36px 36px 36px;
 }
 
-#iteml2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: iteml2;
+.inputs {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: inputs;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 36px 36px 36px 36px 36px 36px 36px;
+      grid-template-rows: 36px 36px 36px 36px 36px 36px 36px;
 }
 
-#iteml3 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: iteml3;
-}
-
-#iteml4 {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  grid-area: iteml4;
-}
-
-#iteml5 {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  grid-area: iteml5;
-}
-
-#iteml6 {
-  -ms-grid-row: 6;
-  -ms-grid-column: 1;
-  grid-area: iteml6;
-}
-
-#iteml7 {
-  -ms-grid-row: 7;
-  -ms-grid-column: 1;
-  grid-area: iteml7;
-}
-
-#iteml8 {
+.wydzial {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
-  grid-area: iteml8;
+  grid-area: wydzial;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 36px 216px;
+      grid-template-rows: 36px 216px;
   text-align: center;
 }
 
-#itemi1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: itemi1;
-}
-
-#itemi2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: itemi2;
-}
-
-#itemi3 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
-  grid-area: itemi3;
-}
-
-#itemi4 {
-  -ms-grid-row: 4;
-  -ms-grid-column: 2;
-  grid-area: itemi4;
-}
-
-#itemi5 {
-  -ms-grid-row: 5;
-  -ms-grid-column: 2;
-  grid-area: itemi5;
-}
-
-#itemi6 {
-  -ms-grid-row: 6;
-  -ms-grid-column: 2;
-  grid-area: itemi6;
-}
-
-#itemi7 {
-  -ms-grid-row: 7;
-  -ms-grid-column: 2;
-  grid-area: itemi7;
-}
-
-#itemi8 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 6;
-  -ms-grid-column: 3;
-  grid-area: itemi8;
-}
-
 #przyciski {
-  -ms-grid-row: 8;
+  -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: przyciski;

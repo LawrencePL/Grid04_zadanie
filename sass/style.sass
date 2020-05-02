@@ -57,54 +57,28 @@ footer
 .formularz
     display: grid
     grid-template-columns: 1fr 2fr 2fr
-    grid-template-rows: 36px 36px 36px 36px 36px 36px 36px 36px
+    grid-template-rows: 260px 40px
     text-align: right
     font-weight: bold
     font-size: 20px 
-    grid-template-areas: "iteml1 itemi1 iteml8" "iteml2 itemi2 itemi8" "iteml3 itemi3 itemi8" "iteml4 itemi4 itemi8" "iteml5 itemi5 itemi8" "iteml6 itemi6 itemi8" "iteml7 itemi7 itemi8" "przyciski przyciski przyciski"    
-    // "iteml1 itemi1 iteml8"
-    // "iteml2 itemi2 itemi8"
-    // "iteml3 itemi3 itemi8"    
-    // "iteml4 itemi4 itemi8"    
-    // "iteml5 itemi5 itemi8"
-    // "iteml6 itemi6 itemi8"    
-    // "iteml7 itemi7 itemi8"
-    // "przyciski przyciski przyciski"    
-#iteml1
-    grid-area: iteml1
-#iteml2
-    grid-area: iteml2
-#iteml3
-    grid-area: iteml3
-#iteml4
-    grid-area: iteml4
-#iteml5
-    grid-area: iteml5
-#iteml6
-    grid-area: iteml6
-#iteml7
-    grid-area: iteml7
-#iteml8    
-    grid-area: iteml8
+    grid-template-areas: "labels inputs wydzial" "przyciski przyciski przyciski"
+    
+.labels
+    grid-area: labels
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: 36px 36px 36px 36px 36px 36px 36px 
+.inputs
+    grid-area: inputs
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: 36px 36px 36px 36px 36px 36px 36px 
+.wydzial
+    grid-area: wydzial    
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: 36px 216px
     text-align: center
-
-#itemi1
-    grid-area: itemi1
-#itemi2
-    grid-area: itemi2
-#itemi3
-    grid-area: itemi3
-#itemi4
-    grid-area: itemi4
-#itemi5
-    grid-area: itemi5
-#itemi6
-    grid-area: itemi6
-#itemi7
-    grid-area: itemi7
-#itemi8
-    grid-area: itemi8    
-
 #przyciski    
     grid-area: przyciski
     text-align: center
