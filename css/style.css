@@ -68,4 +68,16 @@ footer {
   grid-area: footer;
   background-color: #a08221;
 }
+
+.formularz {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 2fr;
+      grid-template-columns: 1fr 2fr 2fr;
+  -ms-grid-rows: 36px 36px 36px 36px 36px 36px 36px 36px;
+      grid-template-rows: 36px 36px 36px 36px 36px 36px 36px 36px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
