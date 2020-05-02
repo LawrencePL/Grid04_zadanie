@@ -1,0 +1,44 @@
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+body
+    font-family: sans-serif
+    background-color: #656565
+
+.grid
+    display: grid
+    grid-template-columns: 1fr 3fr 1fr
+    grid-template-rows: 100px 300px 400px 50px
+    text-align: center    
+    font-weight: bold
+    font-size: 20px 
+    //grid-template-areas: "header header header" "nav main aside" "article article aside" "footer footer footer"
+    //"header header header" 
+    // "nav main aside" 
+    // "article article aside" 
+    // "footer footer footer"
+header
+    //grid-area: header
+    background-color: #eaec4f
+
+nav
+    //grid-area: nav
+    background-color: #e23131    
+
+main
+    //grid-area: main
+    background-color: #9c9ceb
+
+aside
+    // grid-area: aside
+    background-color: #7de27d    
+
+article
+    // grid-area: article
+    background-color: #adacac    
+
+footer
+    // grid-area: footer
+    background-color: #a08221
+
